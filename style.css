@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
+.left{
+    width: 300px;
+    height: 716px;
+    background-color: #f44336;
+    position: fixed;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.itemtext{
+    margin-left: 30px;
+    padding-top: 170px;
+}
+.company{
+    color: white;
+    font-size: 25px;
+    margin-left: 90px;
+}
+button{
+    width: 230px;
+    height: 30px;
+    margin-right: 100px;
+    background-color: #f44336;
+    border: none;
+    color: white;
+    margin-right: 100px;
+
+}
+button:hover{
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+.container{
+    display: flex;
+}
+.interior{
+    font-size: 35px;
+    margin-top: 100px;
+    margin-left: 50px;
+    padding-top: 10px;
+    
+}
+.top{
+    width: 100%;
+}
+.midlle{
+    width: 100%;
+}
+.boton{
+    width: 100%;
+}
+.itemphoto{
+    display: flex;
+    flex-wrap: wrap;
+}
+.w3-half{
+    width: 399px;
+    height: 266px;  
+    padding-left: 20px;
+    
+}
+.w3-row-padding{
+    display: flex;
+    margin-left: 30px;
+    padding-top: 30px;
+}
+.botoon{
+    color: red;
+}
+.topa{
+    padding-top: 10px;
+    
+}
+.topa:hover{
+    opacity: 0.8;
+}
+.right{
+    height:876px ;
+    margin-left: 300px;
+}
+.servies{
+    padding-top: 600px;
+}
+
+.itemteam{
+    width: 300px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    padding-left: 20px;
+    color: white;
+    margin-left: 10px;
+}
+.team2{
+    width: 100%;
+    margin-right: 50px;
+}
+.team{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-top: 50px;
+    padding-left: 10px;
+}
+li{
+    background-color: lightgray;
+    border-bottom: 1px solid black;
+    padding: 8px 16px;
+    text-decoration: none;
+    list-style: none;
+}
+.table{
+    display: flex;
+}
+@media (max-width:768px){
+    .w3-row-padding{
+       flex-direction: column;
+    }
+    .left{
+        width: 280px;
+        height: 800px;
+    }
+    .servies{
+        width: 350px;
+    }
+    .servies1{
+        width: 350px;
+    }
+    .team{
+        flex-direction: column;
+    }
+    .foter{
+        width: 350px;
+    }
+    
+}
+input{
+    width: 1000px;
+    height: 35px;
+}
+#ie{
+    width: 1009px;
+    border: none;
+    background-color: #f44336;
+    color: white;
+}
+#ie:hover{
+    background-color: rgb(213, 213, 213);
+    color: black;
+}
